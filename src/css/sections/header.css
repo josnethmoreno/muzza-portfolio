@@ -1,0 +1,8 @@
+.header{
+	padding-top: var(--mop-3);
+}
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
