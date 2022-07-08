@@ -1,10 +1,11 @@
 @import 'layout.css';
+@import 'font.css';
 @import 'theme.css';
 
 @import 'sections/header.css';
 @import 'sections/home.css';
 
-
+/* GLOBAL STYLES */
 *{
   margin: 0;
   padding: 0;

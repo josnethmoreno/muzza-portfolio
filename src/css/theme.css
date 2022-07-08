@@ -1,11 +1,13 @@
 :root{
+	/* PALLETE COLORS: reference on: https://coolors.co/ */ 
 	--xiketic: hsla(249, 30%, 9%, 1);
 	--magnolia: hsla(255, 100%, 98%, 1);
 	--magnolia-100: hsla(255, 100%, 98%, .8);
 	--han-purple: hsla(252, 100%, 60%, 1);
-	/* PALLETE COLORS: reference on: https://coolors.co/ */ 
+
+	/* THEME COLORS */ 
 	--color-bg: var(--xiketic);
 	--color-text: var(--magnolia);
-	--color-text-100: var(--magnolia-100);
+	--color-text-200: var(--magnolia-100);
 	--color-accent: var(--han-purple);
 }
