@@ -2,5 +2,8 @@
 	/* MARGIN OR PADDING LEVELS */
 	--mop-1: 10rem;
 	--mop-2: 5rem;
-	--mop-3: max(1.5rem, 4vw);
+	--mop-3: max(1rem, 4vw);
+
+	/* HEIGHT HEADER */
+	--height-header: 80px;
 }

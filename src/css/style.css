@@ -12,11 +12,15 @@
   background-origin: border-box;
 }
 
-body{
-  padding: 0 var(--mop-3);
+html{
+  scroll-behavior: smooth;
 }
 
 a{
   text-decoration: none;
-  color: black;
+  color: var(--color-text);
+}
+
+a:visited{
+  color: var(--color-text);
 }

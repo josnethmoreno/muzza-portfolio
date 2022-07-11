@@ -1,8 +1,18 @@
 .header{
-	padding-top: var(--mop-3);
+	position: sticky;
+	top: 0;
+  padding: 0 var(--mop-3);
+	background-color: var(--color-bg);
 }
 
 .nav{
 	display: flex;
 	justify-content: space-between;
+	align-items: end;
+	height: var(--height-header);
 }
+
+.nav-mail{
+	display: none;
+}
+
