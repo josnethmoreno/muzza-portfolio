@@ -4,12 +4,15 @@
 
 @import 'sections/header.css';
 @import 'sections/home.css';
+@import 'sections/work.css';
 
 /* GLOBAL STYLES */
 *{
   margin: 0;
   padding: 0;
   background-origin: border-box;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 html{
@@ -18,9 +21,11 @@ html{
 
 a{
   text-decoration: none;
-  color: var(--color-text);
 }
 
-a:visited{
-  color: var(--color-text);
+button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }

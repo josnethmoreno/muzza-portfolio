@@ -1,13 +1,17 @@
 :root{
 	/* PALLETE COLORS: reference on: https://coolors.co/ */ 
 	--xiketic: hsla(249, 30%, 9%, 1);
+	--xiketic-600: hsla(249, 30%, 9%, .8);
 	--magnolia: hsla(255, 100%, 98%, 1);
-	--magnolia-100: hsla(255, 100%, 98%, .8);
+	--magnolia-800: hsla(255, 100%, 98%, .8);
+	--magnolia-500: hsla(255, 100%, 98%, .5);
 	--han-purple: hsla(252, 100%, 60%, 1);
 
 	/* THEME COLORS */ 
-	--color-bg: var(--xiketic);
-	--color-text: var(--magnolia);
-	--color-text-200: var(--magnolia-100);
-	--color-accent: var(--han-purple);
+	--color-primary: var(--han-purple);
+	--color-dark: var(--xiketic);
+	--color-dark-600: var(--xiketic-600);
+	--color-white: var(--magnolia);
+	--color-white-800: var(--magnolia-800);
+	--color-white-500: var(--magnolia-500);
 }

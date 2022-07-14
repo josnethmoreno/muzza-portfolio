@@ -1,9 +1,21 @@
 :root{
 	/* MARGIN OR PADDING LEVELS */
-	--mop-1: 10rem;
-	--mop-2: 5rem;
-	--mop-3: max(1rem, 4vw);
+	--mop-1: min(12vw, 10em);
+	--mop-2: min(8vw, 5em);
+	--mop-3: min(4vw, 2.5em);
 
 	/* HEIGHT HEADER */
-	--height-header: 80px;
+	--height-header: 4em;
+
+	/* Z-INDEX LVLS */
+	--z-index-10: 10;
+	--z-index-20: 20;
+	--z-index-30: 30;
+	--z-index-40: 40;
+	--z-index-50: 50;
+
+	/* Z-INDEX ELEMENTS */
+	--z-work-modal: var(--z-index-50);
+	--z-work-item: var(--z-index-40);
+	--z-header: var(--z-index-30);
 }

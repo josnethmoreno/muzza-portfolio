@@ -1,0 +1,125 @@
+.work{
+	color: var(--color-white);
+	background-color: var(--color-dark);
+}
+
+.work-item[data-show="true"]{
+	position: fixed;
+	top: 0;
+	height: 100vh;
+	width: 100%;
+	background-color: red;
+	z-index: var(--z-work-item);
+}
+
+.work-item[data-show="true"] .work-img{
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: auto;
+}
+
+.work-item[data-show="true"] > .h3{
+	display: none;
+}
+
+.work-item > .h3{
+	margin-bottom: var(--mop-2);
+}
+
+.work-item{
+	padding: 0 var(--mop-1);
+	text-align: center;
+}
+
+.work-img{
+	width: 100%;
+}
+
+.work-modal[data-show="true"]{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	padding: var(--mop-3);
+	color: var(--color-white);
+	background-color: var(--color-dark-600);
+	backdrop-filter: blur(7px);
+	z-index: var(--z-work-modal);
+}
+
+.work-modal-close{
+	display: block;
+	margin-left: auto;
+	margin-bottom: .5em;
+	width: 2.5em;
+	height: 2.5em;
+	font-size: 1.5em;
+	overflow: hidden;
+}
+
+.work-modal-close svg{
+	width: 100%;
+	color: var(--color-white);
+}
+
+.work-modal > .line{
+	display: block;
+	height: 1px;
+	margin: .5em 0;
+	background-color: var(--color-white-500);
+}
+
+.work-modal-metada{
+	display: flex;
+	justify-content: space-between;
+	color: var(--color-white-500);
+	margin-bottom: 2em;
+}
+
+.work-modal-lead{
+	max-width: 40ch;
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+.work-modal[data-show="false"]{
+	display: none;
+}
+
+.work-modal-see{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: var(--mop-3);
+	right: var(--mop-3);
+	width: 10em;
+	height: 10em;
+	border: 1px solid var(--color-primary);
+	border-radius: 50%;
+	aspect-ratio: 1 / 1;
+	font-weight: var(--font-bold);
+	text-transform: uppercase;
+	color: var(--color-white);
+	cursor: pointer;
+}
+
+.work-modal-see::before{
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-radius: 50%;
+	background-color: var(--color-primary);
+	transition: .2s;
+	z-index: -1;
+}
+
+.work-modal-see:hover::before{
+	width: 100%;
+	height: 100%;
+
+}
